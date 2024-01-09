@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="SpatialHashGPU.cu">
+      <Filter>Physics\SpatialHash</Filter>
+    </CudaCompile>
+    <CudaCompile Include="VtClothSolverGPU.cu">
+      <Filter>Physics\ClothSolverGPU</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="stb_image.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Graphics\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Graphics\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Graphics\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper.cpp">
+      <Filter>Graphics\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameInstance.cpp">
+      <Filter>Graphics\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshRenderer.cpp">
+      <Filter>Graphics\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="VtEngine.cpp">
+      <Filter>Graphics\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Graphics\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Graphics\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="External">
+      <UniqueIdentifier>{04e0635a-1cc3-49fc-bbdd-7e499261e0f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{c647f013-7c6b-4ca7-a6a7-615ec1a7ba80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Source">
+      <UniqueIdentifier>{1bf7cf9b-4757-428f-92c1-1ed329ef391c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Include">
+      <UniqueIdentifier>{f7d33691-738f-4978-a722-b8e7ec4af743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{eb97d10c-213f-4430-bad0-dd5f5d16b600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{0c748510-14c1-4e64-9e99-0510de78c5ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\SpatialHash">
+      <UniqueIdentifier>{46f4577e-1752-48b0-8847-7af9e24f2ac5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Instanced">
+      <UniqueIdentifier>{e7482bc9-797a-4f0c-9af3-4dceb5ce50e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\ClothSolverGPU">
+      <UniqueIdentifier>{d10f78e9-ceb6-4a17-96ac-5c8788dfac70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\ClothSolverCPU">
+      <UniqueIdentifier>{2a11c8e6-2062-4e7c-9bf0-91efa99a1f0a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="External\stb_image.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.hpp">
+      <Filter>Graphics\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.hpp">
+      <Filter>Graphics\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.hpp">
+      <Filter>Graphics\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.hpp">
+      <Filter>Graphics\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.hpp">
+      <Filter>Graphics\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.hpp">
+      <Filter>Graphics\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.hpp">
+      <Filter>Graphics\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRenderer.hpp">
+      <Filter>Graphics\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.hpp">
+      <Filter>Graphics\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInstance.hpp">
+      <Filter>Graphics\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper.hpp">
+      <Filter>Graphics\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.hpp">
+      <Filter>Graphics\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPipeline.hpp">
+      <Filter>Graphics\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.hpp">
+      <Filter>Graphics\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.hpp">
+      <Filter>Graphics\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="VtEngine.hpp">
+      <Filter>Graphics\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.hpp">
+      <Filter>Graphics\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialProperty.hpp">
+      <Filter>Graphics\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.hpp">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.hpp" />
+    <ClInclude Include="ParticleInstancedRenderer.hpp">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="External\cuda\helper_cuda.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="External\cuda\helper_string.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="VtBuffer.hpp">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.cuh">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="SpatialHashGPU.cuh">
+      <Filter>Physics\SpatialHash</Filter>
+    </ClInclude>
+    <ClInclude Include="SpatialHashGPU.hpp">
+      <Filter>Physics\SpatialHash</Filter>
+    </ClInclude>
+    <ClInclude Include="VtClothSolverGPU.hpp">
+      <Filter>Physics\ClothSolverGPU</Filter>
+    </ClInclude>
+    <ClInclude Include="VtClothObjectGPU.hpp">
+      <Filter>Physics\ClothSolverGPU</Filter>
+    </ClInclude>
+    <ClInclude Include="VtClothSolverGPU.cuh">
+      <Filter>Physics\ClothSolverGPU</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.hpp">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerController.hpp">
+      <Filter>Graphics\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleGeometryRenderer.hpp">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseGrabber.hpp">
+      <Filter>Physics\ClothSolverGPU</Filter>
+    </ClInclude>
+    <ClInclude Include="VtClothSolverCPU.hpp">
+      <Filter>Physics\ClothSolverCPU</Filter>
+    </ClInclude>
+    <ClInclude Include="VtClothObjectCPU.hpp">
+      <Filter>Physics\ClothSolverCPU</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Shader\_Default.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Assets\Shader\_Default.vert">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Assets\Shader\UnlitWhite.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Assets\Shader\UnlitWhite.vert">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Assets\Shader\_ShadowDepth.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Assets\Shader\_ShadowDepth.vert">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Assets\Shader\_ShadowDebug.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Assets\Shader\_ShadowDebug.vert">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Assets\Shader\InfinitePlane.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Assets\Shader\InfinitePlane.vert">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="SpatialHashCPU.hpp">
+      <Filter>Physics\SpatialHash</Filter>
+    </None>
+    <None Include="Assets\Shader\_InstancedDefault.frag">
+      <Filter>Shader\Instanced</Filter>
+    </None>
+    <None Include="Assets\Shader\_InstancedDefault.vert">
+      <Filter>Shader\Instanced</Filter>
+    </None>
+    <None Include="Assets\Shader\_InstancedParticle.frag">
+      <Filter>Shader\Instanced</Filter>
+    </None>
+    <None Include="Assets\Shader\_InstancedParticle.geom">
+      <Filter>Shader\Instanced</Filter>
+    </None>
+    <None Include="Assets\Shader\_InstancedParticle.vert">
+      <Filter>Shader\Instanced</Filter>
+    </None>
+    <None Include="Assets\Shader\_InstancedShadowDepth.frag">
+      <Filter>Shader\Instanced</Filter>
+    </None>
+    <None Include="Assets\Shader\_InstancedShadowDepth.vert">
+      <Filter>Shader\Instanced</Filter>
+    </None>
+  </ItemGroup>
+</Project>
