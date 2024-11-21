@@ -1,3 +1,5 @@
+This project is developed based on the Velvet. 
+
 # Velvet
 
 Velvet is a CUDA-accelerated cloth simulation engine based on Extended Position Based Dynamics (XPBD).
