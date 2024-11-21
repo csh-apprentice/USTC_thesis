@@ -2,11 +2,12 @@ This project is developed based on the Velvet. (https://github.com/vitalight/Vel
 And here is the motivation for our project, we extend the original Velcet project to implement Extended Position-Based Dynamics (XPBD) and the Graph Clustering GPU
 acceleration method and the Chebyshev acceleration method. For detail information, one can check the thesis in repo (Chinese Version).
 
+# Abstract
 Real-time cloth simulation has always been a hot research topic in computer graphics. Existing methods can be mainly classified into two categories: physical-based
 simulation and other non-physical-based simulation methods. While physical-based
 simulation methods achieve excellent realism, it becomes challenging to maintain realtime performance as the complexity of the scene increases. Non-physical methods,
 on the other hand, can ensure real-time performance but lack in realism. This paper
-explores cutting-edge cloth simulation technology and presents a comprehensive design of a simulation method. This simulation method aims to address the shortcomings
+explores cutting-edge cloth simulation technology and presents a comprehensive design of a simulation method. This simulation method aims to address the shortcomings
 of non-physical-based simulation methods in terms of realism while further enhancing
 real-time performance.
 Firstly, this paper introduces the Position-Based Dynamics algorithm (PBD) and its
