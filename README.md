@@ -1,4 +1,25 @@
-This project is developed based on the Velvet. 
+This project is developed based on the Velvet. (https://github.com/vitalight/Velvet)
+And here is the motivation for our project:
+
+Real-time cloth simulation has always been a hot research topic in computer graphics. Existing methods can be mainly classified into two categories: physical-based
+simulation and other non-physical-based simulation methods. While physical-based
+simulation methods achieve excellent realism, it becomes challenging to maintain realtime performance as the complexity of the scene increases. Non-physical methods,
+on the other hand, can ensure real-time performance but lack in realism. This paper
+explores cutting-edge cloth simulation technology and presents a comprehensive design of a simulation method. This simulation method aims to address the shortcomings
+of non-physical-based simulation methods in terms of realism while further enhancing
+real-time performance.
+Firstly, this paper introduces the Position-Based Dynamics algorithm (PBD) and its
+realism-enhancing algorithm, Extended Position-Based Dynamics (XPBD). Secondly,
+the paper summarizes the essence of simulation algorithms and categorizes the nonphysical cloth settlement steps as a multi-constraint optimization problem. To address
+this optimization problem, two acceleration methods are designed. The Chebyshev acceleration method is employed for the Jacobi Iteration, while the Graph Clustering GPU
+acceleration method is used for the Gauss Seidel Iteration. In order to compare the performance of different simulation algorithms, this paper constructs various test cases for
+qualitative analysis of algorithm simulation results. Additionally, two sets of quantitative evaluation criteria are designed to assess the performance of different algorithms.
+Furthermore, the paper provides a detailed discussion on the implementation steps
+of the algorithms, including scene construction, engine implementation details, and the
+development of evaluation metrics.
+Based on the experimental results of different acceleration methods, this paper
+discusses the performance of the acceleration algorithms and explores directions for
+further acceleration.
 
 # Velvet
 
